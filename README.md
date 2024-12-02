@@ -4,28 +4,28 @@ This project is a real-time drowsy driver detection system using Flask, OpenCV, 
 
 <h3>📋 Features</h3>
 
-Real-time monitoring of driver’s eyes through webcam.
-Calculates Eye Aspect Ratio (EAR) to assess drowsiness.
-Plays an alert sound when drowsiness is detected.
-Web interface built using Flask.
+Real-time monitoring of driver’s eyes through webcam.<br>
+Calculates Eye Aspect Ratio (EAR) to assess drowsiness.<br>
+Plays an alert sound when drowsiness is detected.<br>
+Web interface built using Flask.<br>
 
 <h3>🛠️ Tech Stack</h3>
 
-Python
+<b>Python</b><br>
 
-Flask for the web interface
-OpenCV for video processing
-Dlib for facial landmark detection
-Imutils for efficient image manipulation
-Pygame for sound alerts
+Flask for the web interface<br>
+OpenCV for video processing<br>
+Dlib for facial landmark detection<br>
+Imutils for efficient image manipulation<br>
+Pygame for sound alerts<br>
 
 <h3>🚀 How It Works</h3>
 
-The system captures frames from the webcam.
-Detects facial landmarks to identify the eyes.
-Computes the Eye Aspect Ratio (EAR):
-EAR drops below a set threshold when eyes are closing.
-If the EAR remains below the threshold for a predefined time, an alert sound is triggered.
+The system captures frames from the webcam.<br>
+Detects facial landmarks to identify the eyes.<br>
+Computes the Eye Aspect Ratio (EAR):<br>
+EAR drops below a set threshold when eyes are closing.<br>
+If the EAR remains below the threshold for a predefined time, an alert sound is triggered.<br>
 
 ![image](https://github.com/user-attachments/assets/b08d44b2-2afe-49db-a1ee-245181f7ecad)
 
