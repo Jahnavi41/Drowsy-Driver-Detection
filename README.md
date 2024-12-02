@@ -1,4 +1,4 @@
-🚗 DROWSY DRIVER DETECTION SYSTEM
+🚗 <h1> DROWSY DRIVER DETECTION SYSTEM</h1>
 
 This project is a real-time drowsy driver detection system using Flask, OpenCV, and Dlib. The system continuously monitors the driver's eye aspect ratio (EAR) to detect signs of fatigue, alerting the driver through an audio signal if drowsiness is detected.
 
